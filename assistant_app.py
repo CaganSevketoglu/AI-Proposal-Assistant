@@ -1,6 +1,7 @@
 import streamlit as st
 import openai
 import re # Metin işleme için bu kütüphaneyi ekliyoruz
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # --- Sayfa Konfigürasyonu ---
 st.set_page_config(
@@ -11,8 +12,7 @@ st.set_page_config(
 
 # --- API Anahtarı Kurulumu ---
 st.sidebar.header("Configuration")
-api_key = st.sidebar.text_input("Enter your OpenAI API Key here:", type="password")
-openai.api_key = api_key
+
 
 # --- Ana Uygulama Arayüzü ---
 st.title("🤖 AI Upwork Proposal Assistant")
@@ -55,9 +55,7 @@ def get_ai_analysis(job_post: str, skills: str):
 
 # --- Buton ve Çalıştırma Mantığı (NİHAİ VERSİYON) ---
 if st.button("Analyze Job Post"):
-    if not api_key:
-        st.error("Please enter your OpenAI API Key in the sidebar on the left.")
-    elif not job_post_text:
+    if not job_post_text:
         st.warning("Please paste a job description first.")
     else:
         with st.spinner("AI Assistant is analyzing the job post... Please wait."):
