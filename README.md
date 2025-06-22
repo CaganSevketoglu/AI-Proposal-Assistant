@@ -1,32 +1,43 @@
 # 🤖 AI-Powered Upwork Proposal Assistant
 
-This is an interactive web application built with Streamlit and powered by OpenAI's GPT models. It provides a strategic analysis of Upwork job postings to help freelancers save time and make smarter decisions by automatically evaluating job descriptions against their unique skills and portfolio.
+This is an interactive web application built with Streamlit and powered by OpenAI's GPT models. It acts as a personal career coach, providing a strategic analysis of Upwork job postings to help freelancers save time and make smarter decisions.
 
 ---
 
 ## 🚀 Live Demo
 
-**You can try the live application here:** (This link will be added after we deploy to Streamlit Cloud)
-*(Not: Bu linki, bir sonraki adımımız olan uygulamayı canlıya aldıktan sonra ekleyeceğiz.)*
+**You can try the live application here:** [https://your-app-name.streamlit.app](https://your-app-name.streamlit.app)
+*(Not: Bu linki, uygulamanın kendi Streamlit Cloud linki ile güncellemeyi unutma!)*
 
 ---
 
-## Features
+## 📸 Application Preview
 
-- **Strategic Job Analysis:** Instead of just summarizing, the AI acts as a personal career coach, analyzing job posts based on key freelance success criteria.
-- **Skill Fit Scoring:** Rates how well a job post matches a freelancer's predefined skill set.
-- **Budget Quality Analysis:** Assesses if the budget is appropriate for the complexity of the task.
-- **Red Flag Detection:** Automatically identifies potentially problematic words or phrases in a job post (e.g., "urgent," vague scope).
-- **Personalized Recommendations:** Provides a clear "Go for it!" or "Stay Away!" recommendation with a justification based on the analysis.
+*(Tavsiye: Buraya uygulamanın çalışır haldeki bir ekran görüntüsünü veya kısa bir animasyonlu GIF'ini eklemen çok profesyonel durur.)*
+
+![App Screenshot](https://github.com/CaganSevketoglu/AI-Proposal-Assistant/blob/main/Ekran%20Resmi%202025-06-22%2014.10.15.jpg?raw=true) 
+*(Not: Bu satırı şimdilik bıraktım, GitHub'a yüklediğin bir ekran görüntüsünün linki ile değiştirebilirsin.)*
+
+
+---
+
+## Core Features
+
+This tool analyzes a job post and provides a structured report based on key strategic criteria:
+
+-   **📊 Skill Fit Analysis:** Rates how well the job requirements match your specific skills and portfolio projects (score out of 10).
+-   **💰 Budget Quality Assessment:** Evaluates if the client's budget is appropriate for the scope and complexity of the work.
+-   **🚩 Red Flag Detection:** Automatically identifies potentially problematic words or phrases in a job post (e.g., "urgent," vague scope).
+-   **⭐ Final Recommendation:** Gives a clear, justified "Go for it!" or "Stay Away!" verdict to guide your application decision.
 
 ---
 
 ## Tech Stack
 
-- **Language:** Python
-- **Web Framework:** Streamlit
-- **AI/LLM:** OpenAI API (GPT-4o-mini)
-- **Core Libraries:** Pandas
+-   **Language:** Python
+-   **Web Framework:** Streamlit
+-   **AI/LLM:** OpenAI API (GPT-4o-mini)
+-   **Core Libraries:** Pandas
 
 ---
 
