@@ -6,9 +6,7 @@ This is an interactive web application built with Streamlit and powered by OpenA
 
 ## 🚀 Live Demo
 
-**You can try the live application here:** [https://your-app-name.streamlit.app](https://your-app-name.streamlit.app)
-*(Not: Bu linki, uygulamanın kendi Streamlit Cloud linki ile güncellemeyi unutma!)*
-
+**You can try the live application here: https://ai-proposal-assistant-9uvgqytihoacnchfaipps5.streamlit.app/
 ---
 
 ## 📸 Application Preview
