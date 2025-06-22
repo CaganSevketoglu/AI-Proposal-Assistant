@@ -10,9 +10,6 @@ st.set_page_config(
     layout="wide"
 )
 
-# --- API Anahtarı Kurulumu ---
-st.sidebar.header("Configuration")
-
 
 # --- Ana Uygulama Arayüzü ---
 st.title("🤖 AI Upwork Proposal Assistant")
