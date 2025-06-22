@@ -9,7 +9,20 @@ st.set_page_config(
     page_icon="🤖",
     layout="wide"
 )
+# İstediğin zaman değiştirebilirsin.
+APP_PASSWORD = "demo" 
 
+st.sidebar.header("App Access")
+password_attempt = st.sidebar.text_input("Enter App Password:", type="password")
+
+# Şifre kontrolü
+if password_attempt != APP_PASSWORD:
+    st.warning("Please enter the password to use the application.")
+    st.stop() # Şifre yanlışsa, uygulamanın geri kalanını çalıştırma ve durdur.
+
+# Şifre doğruysa, devam et
+st.sidebar.success("Access Granted!")
+st.sidebar.markdown("---")
 
 # --- Ana Uygulama Arayüzü ---
 st.title("🤖 AI Upwork Proposal Assistant")
