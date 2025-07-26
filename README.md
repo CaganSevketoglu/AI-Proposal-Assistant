@@ -11,7 +11,6 @@ This is an interactive web application built with Streamlit and powered by OpenA
 
 ## 📸 Application Preview
 
-*(Tavsiye: Buraya uygulamanın çalışır haldeki bir ekran görüntüsünü veya kısa bir animasyonlu GIF'ini eklemen çok profesyonel durur.)*
 
 ![App Screenshot](https://github.com/CaganSevketoglu/AI-Proposal-Assistant/blob/main/Ekran%20Resmi%202025-06-22%2014.10.15.jpg?raw=true) 
 *(Not: Bu satırı şimdilik bıraktım, GitHub'a yüklediğin bir ekran görüntüsünün linki ile değiştirebilirsin.)*
